@@ -435,18 +435,40 @@ body {
 div {
   border: 1px solid chocolate;
 }
+html {
+  -webkit-font-smoothing: antialiased;
 }
-
 .top-navigation {
   background-color: #ffffff;
 }
 .top-navigation > .content {
-  width: 970px;
+  width: 940px;
   height: 70px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 .logo {
   height: 70px;
   width: 26px;
-  margin-left: 50px;
+}
+.links {
+  float: right;
+  margin-top: 25px;
+}
+.links > li {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+  margin-left: 25px;
+  transition: color .25s ease;
+}
+.links > li:hover {
+  color: #4c5058;
+  cursor: pointer;
+}
+.links > .active {
+  color: #4c5058;
+  font-weight: 500;
 }
