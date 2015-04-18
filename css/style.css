@@ -1,4 +1,6 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/*
+
+! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
  * 1. Set default font family to sans-serif.
@@ -424,4 +426,27 @@ table {
 td,
 th {
   padding: 0;
+}
+/*REMOVE THESE LINES ONCE FINISHED
+*/
+body {
+  background-color: LightGray;
+}
+div {
+  border: 1px solid chocolate;
+}
+}
+
+.top-navigation {
+  background-color: #ffffff;
+}
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+.logo {
+  height: 70px;
+  width: 26px;
+  margin-left: 50px;
 }
