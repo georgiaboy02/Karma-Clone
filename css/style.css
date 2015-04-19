@@ -516,3 +516,22 @@ html {
 .big-button:hover {
   background-color: #d9400e;
 }
+.cases {
+  width: 1000px;
+  margin: 0px auto;
+}
+.icon-header {
+  text-align: center;
+  font-size: 2.75rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-top: 100px
+}
+.cases .devices {
+  width: 33.3333333%;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
+  margin-right: -4px;
+}
