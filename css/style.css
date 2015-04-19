@@ -435,12 +435,6 @@ th {
 }
 /*REMOVE THESE LINES ONCE FINISHED
 */
-body {
-  background-color: LightGray;
-}
-div {
-  border: 1px solid chocolate;
-}
 html {
   -webkit-font-smoothing: antialiased;
 }
@@ -520,7 +514,7 @@ html {
   background-color: #d9400e;
 }
 .cases {
-  width: 1000px;
+  width: 940px;
   margin: 0px auto;
 }
 .icon-header {
@@ -533,15 +527,14 @@ html {
 .cases .devices {
   width: 33.3333333%;
   display: inline-block;
-  border: 1px solid black;
-  box-sizing: border-box;
   height: 200px;
   margin-right: -4px;
   text-align: center;
+  margin-top: 20px;
 }
 .devices img {
   height: 127px;
-}
+  margin-top: }
 .devices h3 {
   font-weight: 400;
   font-size: 1.563rem;
@@ -551,15 +544,14 @@ html {
 footer .content {
   margin-top: 150px;
 }
-footer .content p {
-  color: black;
-}
 .join {
   margin-bottom: 30px;
+  color: black;
 }
 .content hr {
   width: 940px;
-  color: LightGray;
+  border: 0;
+  border-top:1px solid #eaebec;
 }
 .icons {
   margin: 0px;
@@ -569,9 +561,13 @@ footer .content p {
   display: inline;
   text-align: center;
   padding: 15px;
-
+  color: black;
+}
+.icons li:hover {
+  cursor: pointer;
 }
 .copyright {
   margin-top: 30px;
   font-weight: 100;
+  color: #838994;
 }
