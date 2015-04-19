@@ -546,4 +546,32 @@ html {
   font-weight: 400;
   font-size: 1.563rem;
   margin-left: 2.5rem 0px 1.875rem;
+  margin-top: 40px;
+}
+footer .content {
+  margin-top: 150px;
+}
+footer .content p {
+  color: black;
+}
+.join {
+  margin-bottom: 30px;
+}
+.content hr {
+  width: 940px;
+  color: LightGray;
+}
+.icons {
+  margin: 0px;
+  padding: 0px;
+}
+.icons li {
+  display: inline;
+  text-align: center;
+  padding: 15px;
+
+}
+.copyright {
+  margin-top: 30px;
+  font-weight: 100;
 }
